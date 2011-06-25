@@ -1,0 +1,9 @@
+h2{font-family:arial;} 
+.reviewBlock{margin-bottom:3px;} 
+.authorText {text-align:right;font-family:arial;font-size:12px;} 
+.searchText {font-family:arial;font-size:12px;} 
+div.scroll { height: 331px; width: 380px; overflow: auto; border: 1px solid #CCC;background-color: #FFF;padding: 6px;} 
+.movieHeader {font-family:arial;font-size:15px;margin-bottom:1px;} 
+.tweetText {font-family:arial;font-size:12px;float:left;margin-top:1px;width:98%;}
+.playerDiv {margin-top:20px;}
+.questionBlock {margin-top:8px;margin-bottom:3px;}

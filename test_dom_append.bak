@@ -1,0 +1,62 @@
+<html>
+<body>
+
+<script type="text/javascript">
+function addtext(what){
+if (document.createTextNode){
+var mytext=document.createTextNode(what)
+document.getElementById("mydiv").appendChild(mytext)
+}
+}
+</script>
+<div id="mydiv" onClick="addtext(' <i>This Text was added to the DIV.</i>')" style="font:20px bold; cursor
+:hand">Click here for example</div>
+
+<script type="text/javascript" language="javascript">
+
+ 
+function createDiv()
+
+{
+var divTag = document.createElement("div");
+
+ 
+divTag.id = "div1";
+
+ 
+divTag.setAttribute("align","center");
+
+ 
+divTag.style.margin = "0px auto";
+
+ 
+divTag.className ="dynamicDiv";
+
+ 
+divTag.innerHTML = "This <b>HTML Div tag</b> is created using Javascript DOM dynamically.";
+
+ 
+
+document.body.appendChild(divTag);
+
+ 
+
+ 
+var pTag = document.createElement("p");
+
+ 
+pTag.setAttribute("align","center");
+
+ 
+pTag.innerHTML = "This paragraph <b>HTML p tag</b> is added dynamically inside the div tag.";
+
+ 
+document.getElementById("div1").appendChild(pTag);
+
+}
+
+ 
+</script>
+<input id="btn1" type="button" value="create div" onclick="createDiv();" />
+</body>
+</html>
