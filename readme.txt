@@ -1,1 +1,1 @@
-Script that mashups data from Twitter, Yahoo Movies, and YouTube to generate real time movie review
+Script that pulls mashup data from Twitter, Yahoo Movies, and YouTube to generate real time movie review
